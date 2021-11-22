@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>subWnd.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>addordel.qml</file>
+        <file>MainWindowCustomerArea.qml</file>
+    </qresource>
+</RCC>
