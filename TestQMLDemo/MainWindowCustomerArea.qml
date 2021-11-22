@@ -182,7 +182,7 @@ Rectangle {
                 for(var i = 0; i < len; ++i){
                     var aa =listmodel.get(i).a
                     if(aa.x>=obj.x){
-                        listmodel.insert({a:obj})
+                        listmodel.insert(i,{a:obj})
                         id_frame.insert(i,{framePos:tempPos})
                         console.log(aa,"__index",aa.__index,"; x",aa.x,"; color",aa.color )
                         return
